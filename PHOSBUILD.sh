@@ -1,4 +1,4 @@
-rm -rf /opt/PHANTX/nmap
+rm -rf /opt/PHANTX/CrackMapExec
 
 cd /opt/PHANTX
 

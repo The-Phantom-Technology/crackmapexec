@@ -2,11 +2,8 @@ rm -rf /opt/PHANTX/nmap
 
 cd /opt/PHANTX
 
-git clone https://github.com/nmap/nmap
-
-cd /opt/PHANTX/nmap
-
-./configure 
+git clone https://github.com/byt3bl33d3r/CrackMapExec
+cd /opt/PHANTX/CrackMapExec
 
 if [ $? -eq 0 ]
 then
@@ -17,8 +14,10 @@ else
   exit 1
 fi
 
-make
-make install
+cd /opt/PHANTX/CrackMapExec
+,
+
+
 
 chmod -R 755 /opt/PHANTX
 rm -rf /opt/PHOS/tool/nmap

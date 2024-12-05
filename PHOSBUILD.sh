@@ -14,11 +14,11 @@ else
   exit 1
 fi
 
-cd /opt/PHANTX/CrackMapExec
-,
+cd /opt/PHANTX/CrackMapExe
+
+sudo poetry install
 
 
-
-chmod -R 755 /opt/PHANTX
-rm -rf /opt/PHOS/tool/nmap
-rm -rf /opt/PHOS/tool/nmap
+chmod -R 755 /opt/PHANTX/crackmapexec
+rm -rf /opt/PHOS/tool/crackmapexec
+rm -rf /opt/PHOS/tool/crackmapexec

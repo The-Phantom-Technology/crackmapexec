@@ -18,6 +18,9 @@ cd /opt/PHANTX/CrackMapExe
 
 sudo poetry install
 
+cp -Rf cme /opt/PHANTX/bin
+cp -Rf cmedb /opt/PHANTX/bin
+cp -Rf crackmapexec/opt/PHANTX/bin
 
 chmod -R 755 /opt/PHANTX/crackmapexec
 rm -rf /opt/PHOS/tool/crackmapexec

@@ -2,8 +2,7 @@ rm -rf /opt/PHANTX/CrackMapExec
 
 cd /opt/PHANTX
 
-git clone https://github.com/byt3bl33d3r/CrackMapExec
-cd /opt/PHANTX/CrackMapExec
+git clone https://github.com/byt3bl33d3r/CrackMapExec /opt/PHANTX/CrackMapExec
 
 if [ $? -eq 0 ]
 then

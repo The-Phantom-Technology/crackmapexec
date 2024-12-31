@@ -14,14 +14,12 @@ else
   exit 1
 fi
 
-cd /opt/PHANTX/CrackMapExe
-
 sudo poetry install
 
-cp -Rf cme /opt/PHANTX/bin
-cp -Rf cmedb /opt/PHANTX/bin
-cp -Rf crackmapexec/opt/PHANTX/bin
+cp -Rf phantxbin/* /opt/PHANTX/bin
 
-chmod -R 755 /opt/PHANTX/crackmapexec
-rm -rf /opt/PHOS/tool/crackmapexec
-rm -rf /opt/PHOS/tool/crackmapexec
+rm -rf /opt/PHOS/tool/*
+rm -rf /opt/PHOS/tool/*
+
+chown -R phantx:phantx /opt/PHANTX
+chmod -R 755 /opt/PHANTX/

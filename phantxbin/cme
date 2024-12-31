@@ -1,0 +1,3 @@
+cd /opt/PHANTX/CrackMapExec
+
+sudo poetry run crackmapexec "$@"

@@ -13,7 +13,10 @@ else
   exit 1
 fi
 
+cd /opt/PHANTX/CrackMapExec
 sudo poetry install
+
+cd /PHOS/tool/crackmapexec
 
 cp -Rf phantxbin/* /opt/PHANTX/bin
 
